@@ -250,7 +250,7 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #222224;
+  background:white;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -278,7 +278,7 @@ a:hover {
 .footer_top_header {
   font-size: 19.96px;
   line-height: 24px;
-  color: #fbfbfb;
+  color: black;
   padding-bottom: 16px;
 }
 
@@ -287,7 +287,7 @@ a:hover {
   font-size: 13.972px;
   line-height: 17px;
   text-align: center;
-  color: #fbfbfb;
+  color: black;
 }
 
 .first {
@@ -303,33 +303,8 @@ a:hover {
 }
 
 .footer_middle {
-  height: 448px;
-  background-image: url(img/fon-footer.jpg);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center bottom;
-}
-
-.footer_middle_left {
-  width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 97px;
-}
-
-.footer_middle_right {
-  display: -webkit-box;
+  height: 150px;
+   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
@@ -342,6 +317,7 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+
 }
 
 .footer_middle_text {
@@ -358,13 +334,6 @@ a:hover {
   color: #222224;
   font-weight: bold;
   text-align: center;
-}
-
-.info_enter_mini {
-  font-size: 18px;
-  line-height: 167.2%;
-  text-align: center;
-  color: #222224;
 }
 
 .enter {
@@ -1194,7 +1163,7 @@ summary {
     font-size: 24px;
     line-height: 29px;
   }
- 
+
   .promo_right {
     padding-left: 32px;
   }
