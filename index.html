@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,125 +8,133 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/91441bf2af.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <header>
-      <nav>
-        <div class="header center">
-            <div class="header_left">
-                <a href="index.html" class="logo"><img src="" alt="logo"></a>
-                <a href="#" class="search"><img src="" alt="search"></a>
+    <header>
+        <nav>
+            <div class="header center">
+                <div class="header_left">
+                    <a href="index.html" class="logo"><img src="" alt="logo"></a>
+                    <a href="#" class="search"><img src="" alt="search"></a>
+                </div>
+                <div class="header_right">
+                    <input id="switcher" type="checkbox">
+                    <label for="switcher"><img src="img/svg/menu.svg" alt="menu">
+                    </label>
+                    <nav class="drop">
+                        <div class="header__box header__box_nav">
+                            <a href="registrations.html" class="profile"><img src="img/svg/profile.svg"
+                                    alt="profile"></a>
+                            <a href="cart.html" class="basket"><img src="img/svg/basket.svg" alt="basket"></a>
+                        </div>
+                        <span class="drop__name">MENU</span>
+                        <div class="drop__box">
+                            <a href="catalog.html" class="drop__heading">MAN</a>
+                            <ul class="drop__ul">
+                                <li><a class="drop__link" href="#">Accessories</a></li>
+                                <li><a class="drop__link" href="#">Bags</a></li>
+                                <li><a class="drop__link" href="#">Denim</a></li>
+                                <li><a class="drop__link" href="#">Shirts</a></li>
+                            </ul><br>
+                        </div>
+                        <div class="drop__box">
+                            <a href="catalog.html" class="drop__heading">WOMEN</a>
+                            <ul class="drop__ul">
+                                <li><a class="drop__link" href="#">Accessories</a></li>
+                                <li><a class="drop__link" href="#">Jackets & Coats</a></li>
+                                <li><a class="drop__link" href="#">Polos</a></li>
+                                <li><a class="drop__link" href="#">T-Shirts</a></li>
+                            </ul><br>
+                        </div>
+                        <div class="drop__box">
+                            <a href="catalog.html" class="drop__heading">KIDS</a>
+                            <ul class="drop__ul">
+                                <li><a class="drop__link" href="#">Accessories</a></li>
+                                <li><a class="drop__link" href="#">Jackets & Coats</a></li>
+                                <li><a class="drop__link" href="#">Denim</a></li>
+                                <li><a class="drop__link" href="#">Shirts</a></li>
+                            </ul><br>
+                        </div>
+                    </nav>
+                    <nav class="header__box">
+                        <a href="registrations.html" class="profile">
+                            <p>Контакты</p>
+                        </a>
+                    </nav>
+                </div>
             </div>
-            <div class="header_right">
-                <input id="switcher" type="checkbox">
-                <label for="switcher"><img src="img/svg/menu.svg" alt="menu">
-                </label>
-                <nav class="drop">
-                    <div class="header__box header__box_nav">
-                        <a href="registrations.html" class="profile"><img src="img/svg/profile.svg" alt="profile"></a>
-                        <a href="cart.html" class="basket"><img src="img/svg/basket.svg" alt="basket"></a>
-                    </div>
-                    <span class="drop__name">MENU</span>
-                    <div class="drop__box">
-                        <a href="catalog.html" class="drop__heading">MAN</a>
-                        <ul class="drop__ul">
-                            <li><a class="drop__link" href="#">Accessories</a></li>
-                            <li><a class="drop__link" href="#">Bags</a></li>
-                            <li><a class="drop__link" href="#">Denim</a></li>
-                            <li><a class="drop__link" href="#">Shirts</a></li>
-                        </ul><br>
-                    </div>
-                    <div class="drop__box">
-                        <a href="catalog.html" class="drop__heading">WOMEN</a>
-                        <ul class="drop__ul">
-                            <li><a class="drop__link" href="#">Accessories</a></li>
-                            <li><a class="drop__link" href="#">Jackets & Coats</a></li>
-                            <li><a class="drop__link" href="#">Polos</a></li>
-                            <li><a class="drop__link" href="#">T-Shirts</a></li>
-                        </ul><br>
-                    </div>
-                    <div class="drop__box">
-                        <a href="catalog.html" class="drop__heading">KIDS</a>
-                        <ul class="drop__ul">
-                            <li><a class="drop__link" href="#">Accessories</a></li>
-                            <li><a class="drop__link" href="#">Jackets & Coats</a></li>
-                            <li><a class="drop__link" href="#">Denim</a></li>
-                            <li><a class="drop__link" href="#">Shirts</a></li>
-                        </ul><br>
-                    </div>
-                </nav>
-                <nav class="header__box">
-                    <a href="registrations.html" class="profile"><img src="img/svg/profile.svg" alt="profile"></a>
-                    <a href="cart.html" class="basket"><img src="img/svg/basket.svg" alt="basket"></a>
-                </nav>
-            </div>
-        </div>
-      </nav>
-    <div class="promo">
-        <h1>Шлифовальные системы</h1>
+        </nav>
+        <div class="promo">
+            <h1>Шлифовальные системы</h1>
             <img src="" alt="photo_center">
-    </div>
+        </div>
     </header>
     <section>
         <div class="catalog center">
             <div class="cart marg_up">
                 <a href="#"><img class="cart_img" src="#" alt="photo T60R"></a>
                 <div class="wrap_catalog_text">
-                    <a href="product.html"><h3 class="cart_header_text">Шлифовальная система DE-TERO T60R</h3></a>
-                    <p class="cart_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati at delectus ducimus quo neque ratione repellendus minima. Ab, cupiditate sapiente amet illum magnam dicta reiciendis nesciunt fuga accusantium unde.</p>
+                    <a href="product.html">
+                        <h3 class="cart_header_text">Шлифовальная система DE-TERO T60R</h3>
+                    </a>
+                    <p class="cart_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati at
+                        delectus ducimus quo neque ratione repellendus minima. Ab, cupiditate sapiente amet illum magnam
+                        dicta reiciendis nesciunt fuga accusantium unde.</p>
                 </div>
             </div>
         </div>
         <div class="button_catalog center">
-            <a href="catalog.html" class="button_catalog_text">All Product</a>
+            <a href="catalog.html" class="button_catalog_text">Все продукты</a>
         </div>
-   </section>
-   <footer>
-    <div class="footer_top center">
-        <div class="footer_box">
-            <img class="footer_top_img" src="img/svg/bus.svg" alt="">
-            <h3 class="footer_top_header first">Free Delivery</h3>
-            <p class="footer_top_parag_text">Worldwde delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+    </section>
+    <footer>
+        <div class="footer_top center">
+            <div class="footer_box">
+                <img class="footer_top_img" src="img/svg/bus.svg" alt="">
+                <h3 class="footer_top_header first">Оплата</h3>
+                <p class="footer_top_parag_text">Worldwde delivery on all. Authorit tively morph next-generation innov
+                    tion with extensive models.</p>
+            </div>
+            <div class="footer_box">
+                <img class="footer_top_img" src="img/svg/sale.svg" alt="">
+                <h3 class="footer_top_header two">Доставка</h3>
+                <p class="footer_top_parag_text">Worldwide delivery on all. Authorit tively morph next-generation innov
+                    tion with extensive models.</p>
+            </div>
+            <div class="footer_box">
+                <img class="footer_top_img" src="img/svg/carona.svg" alt="">
+                <h3 class="footer_top_header three">Гарантии</h3>
+                <p class="footer_top_parag_text">Worldwide delivery on all. Authorit tively morph next-generation innov
+                    tion with extensive models.</p>
+            </div>
         </div>
-        <div class="footer_box">
-            <img class="footer_top_img" src="img/svg/sale.svg" alt="">
-            <h3 class="footer_top_header two">Sales & discounts</h3>
-            <p class="footer_top_parag_text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-        </div>
-        <div class="footer_box">
-            <img class="footer_top_img" src="img/svg/carona.svg" alt="">
-            <h3 class="footer_top_header three">Quality assurance</h3>
-            <p class="footer_top_parag_text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-        </div>
-    </div>
-    <div class="footer_middle center">
-        <div class="footer_middle_right">
-            <p class="info_enter">SUBSCRIBE</p>
-            <p class="info_enter_mini">FOR OUR NEWLETTER AND PROMOTION</p>
+        <div class="footer_middle center">
+            <!-- <p class="info_enter">SUBSCRIBE</p>-->
             <form action="#" class="enter">
-                <input class="email_text" type="email" placeholder="Enter Your Email" >
+                <input class="email_text" type="email" placeholder="Enter Your Email">
                 <button class="subscribe">Subscribe</button>
             </form>
         </div>
+        <div class="footer_down center">
+            <div class="footer_down_left">
+                <p class="footer_down_text">© 2021 Brand All Rights Reserved.</p>
+            </div>
+            <div class="footer_down_right">
+                <a href="#" class="footer_icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="footer_icon">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+                <a href="#" class="footer_icon">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+                <a href="#" class="footer_icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
         </div>
-    <div class="footer_down center">
-        <div class="footer_down_left">
-            <p class="footer_down_text">© 2021  Brand  All Rights Reserved.</p>
-        </div>
-        <div class="footer_down_right">
-            <a href="#" class="footer_icon">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" class="footer_icon">
-                <i class="fab fa-instagram-square"></i>
-            </a>
-            <a href="#" class="footer_icon">
-                <i class="fab fa-pinterest-p"></i>
-            </a>
-            <a href="#" class="footer_icon">
-                <i class="fab fa-twitter"></i>
-            </a>
-        </div>
-    </div>
-   </footer>
+    </footer>
 </body>
+
 </html>
