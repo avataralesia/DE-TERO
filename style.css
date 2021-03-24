@@ -90,7 +90,7 @@ a:hover {
   z-index: -10;
   top: 75px;
   width: 232px;
-  height: 765px;
+  height: 900px;
 }
 
 .drop__name {
@@ -107,7 +107,7 @@ a:hover {
 .drop__heading {
   font-size: 14px;
   line-height: 17px;
-  color: #f16d7f;
+  color: #2032da;
 }
 
 .drop__ul {
@@ -125,17 +125,12 @@ a:hover {
 }
 
 .drop__link:hover {
-  color: #f16d7f;
+  color: #328ee4;
 }
 
 .promo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: rgba(113, 103, 105, 0.08);
   padding-left: calc(50% - 800px);
   padding-right: calc(50% - 800px);
-  height: 250px;
 }
 .catalog {/*
   display: -webkit-box;
@@ -303,6 +298,7 @@ a:hover {
 }
 
 .footer_middle {
+  background: #0d4d94;
   height: 150px;
    display: -webkit-box;
   display: -ms-flexbox;
@@ -326,14 +322,6 @@ a:hover {
   text-align: center;
   color: #222224;
   width: 400px;
-}
-
-.info_enter {
-  font-size: 24px;
-  line-height: 167.2%;
-  color: #222224;
-  font-weight: bold;
-  text-align: center;
 }
 
 .enter {
@@ -374,7 +362,7 @@ a:hover {
           align-items: center;
   text-align: center;
   color: #ffffff;
-  background: #f16d7f;
+  background: #5f5d5e;
   padding: 17px 20px 15px 20px;
   height: 49px;
   border-radius: 0 20px 20px 0;
@@ -390,7 +378,7 @@ a:hover {
 
 .footer_down {
   height: 79px;
-  background: #222224;
+  background: #0d4d94;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -737,8 +725,8 @@ summary {
     transform: scale(0.9);
   }
   100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
+    -webkit-transform: scale(1.2);
+    transform: scale(5);
   }
 }
 
