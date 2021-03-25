@@ -10,6 +10,9 @@
 body {
   font-family: "Lato", sans-serif;
 }
+.wrapp{
+  height: 100%;
+}
 
 .header {
   display: -webkit-box;
@@ -21,7 +24,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 75px;
+  height: 200px;
   position: relative;
 }
 
@@ -242,16 +245,23 @@ a:hover {
 }
 
 .footer_top {
-  display: -webkit-box;
+  background: #0d4d94;
+  height: 79px;
+   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background:white;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 341px;
+
+
 }
 
 .footer_box {
@@ -298,22 +308,16 @@ a:hover {
 }
 
 .footer_middle {
-  background: #0d4d94;
-  height: 150px;
-   display: -webkit-box;
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  background:white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-
+  height: 300px;
 }
 
 .footer_middle_text {
@@ -328,7 +332,6 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 32px;
  /* width: 356px;*/
 }
 
@@ -408,13 +411,14 @@ a:hover {
 
 .footer_icon {
   display: block;
-  background-color: #ffffff;
-  color: #222224;
+  background-color: #0d4d94;
+  color: #f00d33;
   width: 32px;
   height: 32px;
   text-align: center;
   line-height: 32px;
   margin-right: 7px;
+  border-radius: 15px;
 }
 
 .footer_icon:hover {
@@ -744,6 +748,7 @@ summary {
     transform: scale(1);
   }
 }
+
 
 /*cart*/
 .card-content {
