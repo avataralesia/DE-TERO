@@ -14,18 +14,31 @@ body {
   height: 100%;
 }
 
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.header__top {
+  background: #0d4d94;
+  height: 70px;
+}
+.header__top_list{
+    display: flex;
+    justify-content: space-between;
+}
+.header__middle{
+
+}
+.header__down{
+  background: #0d4d94;
+  height: 70px;
+
+}
+.header__down_list{
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 200px;
-  position: relative;
+  justify-content: space-between;
+}
+.header__top_list_link{
+  color:white
+}
+li{
+  list-style-type: none;
 }
 
 a {
@@ -41,99 +54,24 @@ a:hover {
   padding-right: 41px;
 }
 
-.profile {
-  padding-left: 31px;
-  padding-right: 34px;
-}
-
 .center {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
 }
 
-.header_right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header__box {
+/*.header__box {
   display: block;
 }
 
 .header__box_nav {
   display: none;
-}
+}*/
 
-#switcher {
-  position: absolute;
-  left: -99999999px;
-  visibility: hidden;
-}
 
-#switcher:checked ~ .drop {
-  opacity: 1;
-  visibility: visible;
-  z-index: 1;
-}
 
-.drop {
-  background: #FFFFFF;
-  -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
-          box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
-  padding: 37px 32px;
-  position: absolute;
-  right: 0;
-  opacity: 0;
-  -webkit-transition: opacity .4s;
-  transition: opacity .4s;
-  z-index: -10;
-  top: 75px;
-  width: 232px;
-  height: 900px;
-}
 
-.drop__name {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  color: #000000;
-}
-
-.drop__box {
-  margin-top: 24px;
-}
-
-.drop__heading {
-  font-size: 14px;
-  line-height: 17px;
-  color: #2032da;
-}
-
-.drop__ul {
-  list-style-type: none;
-  padding-left: 20px;
-  margin-top: 12px;
-}
-
-.drop__link {
-  font-size: 14px;
-  line-height: 17px;
-  color: #6F6E6E;
-  display: block;
-  margin-bottom: 11px;
-}
-
-.drop__link:hover {
-  color: #328ee4;
-}
 
 .promo {
-  padding-left: calc(50% - 800px);
-  padding-right: calc(50% - 800px);
 }
 .catalog {/*
   display: -webkit-box;
