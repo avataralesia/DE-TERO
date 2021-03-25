@@ -13,78 +13,39 @@
     <wrapper class="wrapp">
         <header>
             <nav>
-                <div class="header center">
-                    <div class="header_left">
-                        <a href="index.html" class="logo"><img src="img/logo_new.jpg" alt="logo"></a>
-                        <!---<a href="#" class="search"><img src="" alt="search"></a>-->
-                        <ul>
-                            <li><a href="#">О компании</a></li>
-                            <li><a href="#">Контакты</a></li>
-                            <li><a href="#">Доставка и оплата</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Гарантии</a></li>
-                            <li><a href="#">Где купить</a></li>
-
-                        </ul>
-                    </div>
-                    <div class="header_right">
-                        <input id="switcher" type="checkbox">
-                        <label for="switcher"><p>Каталог продукции</p>
-                        </label>
-                        <nav class="drop">
-                            <div class="header__box header__box_nav">
-                                <a href="registrations.html" class="profile"><img src="img/svg/profile.svg"
-                                        alt="profile"></a>
-                                <a href="cart.html" class="basket"><img src="img/svg/basket.svg" alt="basket"></a>
-                            </div>
-                           <!---<span class="drop__name">MENU</span>--> 
-                            <div class="drop__box">
-                                <a href="catalog.html" class="drop__heading">Шлифовальные системы</a>
-                                <ul class="drop__ul">
-                                    <li><a class="drop__link" href="#">Шлифовальная система R</a></li>
-                                    <li><a class="drop__link" href="#">Шлифовальная система RQ</a></li>
-                                    <li><a class="drop__link" href="#">Шлифовальная система RQP</a></li>
-                                    <li><a class="drop__link" href="#">Шлифовальная система ROP</a></li>
-                                    <li><a class="drop__link" href="#">Шлифовальная система ROQ</a></li>
-                                    <li><a class="drop__link" href="#">Шлифовальная система BRUSH</a></li>
-                                    <li><a class="drop__link" href="#">Шлифовальная система T60R</a></li>
-                                    <li><a class="drop__link" href="#">Шлифовальная система T90H</a></li>
-                                    <li><a class="drop__link" href="#">Шлифовальная система T130H</a></li>
-                                    <li><a class="drop__link" href="#">Шлифовальная система TQ205R</a></li>
-    
-                                </ul><br>
-                            </div>
-                            <div class="drop__box">
-                                <a href="catalog.html" class="drop__heading">Комплектующие</a>
-                                <ul class="drop__ul">
-                                    <li><a class="drop__link" href="#">Вкладыши</a></li>
-                                    <li><a class="drop__link" href="#">Щётки</a></li>
-                                    <li><a class="drop__link" href="#">Втулки</a></li>
-                                </ul><br>
-                            </div>
-                            <div class="drop__box">
-                                <a href="catalog.html" class="drop__heading">Оборудование для щеток</a>
-                                <ul class="drop__ul">
-                                    <li><a class="drop__link" href="#">Шлифовальный модуль</a></li>
-                                    <li><a class="drop__link" href="#">Напольная подставка</a></li>
-                                    <li><a class="drop__link" href="#">Преобразователь частоты</a></li>
-                                </ul><br>
-                            </div>
-                        </nav>
-                        <nav class="header__box">
-                            <a href="registrations.html" class="profile">
-                                <p>Контакты</p>
-                            </a>
-                        </nav>
-                    </div>
+                <div class="header__top center">
+                    <ul class="header__top_list">
+                        <li><a class="header__top_list_link" href="#">О компании</a></li>
+                        <li><a class="header__top_list_link" href="#">Контакты</a></li>
+                        <li><a class="header__top_list_link" href="#">Где купить</a></li>
+                    </ul>
+                </div>
+                <div class="header__middle center">
+                    <a href="index.html" class="logo"><img src="img/logo_new.jpg" alt="logo"></a>
+                </div>
+                <div class="header__down center">
+                    <ul class="header__down_list">
+                        <li><a class="header__top_list_link" href="#">Шлифовальные системы</a></li>
+                        <li><a class="header__top_list_link" href="#">Комплектующие</a></li>
+                        <li><a class="header__top_list_link" href="#">Оборудование для щеток</a></li>
+                    </ul>
                 </div>
             </nav>
-            <div class="promo">
+            <!--    <nav>
+                <div >
+
+                        <a href="#" class="search"><img src="" alt="search"></a>
+
+                </div>
+            </nav>-->
+        </header>
+        <section>
+            <div class="promo center">
                 <h1>Шлифовальные системы</h1>
                 <img src="img/" alt="photo_center">
             </div>
-        </header>
+        </section>
+
         <section>
             <div class="catalog center">
                 <div class="cart marg_up">
@@ -94,7 +55,8 @@
                             <h3 class="cart_header_text">Шлифовальная система DE-TERO T60R</h3>
                         </a>
                         <p class="cart_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati at
-                            delectus ducimus quo neque ratione repellendus minima. Ab, cupiditate sapiente amet illum magnam
+                            delectus ducimus quo neque ratione repellendus minima. Ab, cupiditate sapiente amet illum
+                            magnam
                             dicta reiciendis nesciunt fuga accusantium unde.</p>
                     </div>
                 </div>
@@ -105,8 +67,8 @@
         </section>
     </wrapper>
 
-    <footer >   
-         <div class="footer_top center">
+    <footer>
+        <div class="footer_top center">
             <form action="#" class="enter">
                 <input class="email_text" type="email" placeholder="Enter Your Email">
                 <button class="subscribe">Отправить</button>
@@ -115,23 +77,47 @@
 
         <div class="footer_middle center">
             <div class="footer_box">
+                <img src="img/logo" alt="">
+            </div>
+            <div class="footer_box">
                 <img class="footer_top_img" src="img/svg/bus.svg" alt="">
                 <h3 class="footer_top_header first">Каталог продукции</h3>
-                <a href="#" class="footer_top_parag_text">Шлифовальные системы </a>
-                <a href="#" class="footer_top_parag_text">Комплектующие</a>
-                <a href="#" class="footer_top_parag_text">Оборудование для щеток</a>
+                <a href="#" class="footer_top_parag_text">
+                    <p class="footer_top_parag_text">Шлифовальные системы</p>
+                </a>
+                <a href="#" class="footer_top_parag_text">
+                    <p class="footer_top_parag_text">Комплектующие</p>
+                </a>
+                <a href="#" class="footer_top_parag_text">
+                    <p class="footer_top_parag_text">Оборудование для щеток</p>
+                </a>
             </div>
             <div class="footer_box">
                 <img class="footer_top_img" src="img/svg/sale.svg" alt="">
-               <a href="#"> <h3 class="footer_top_header two">Доставка</h3></a>
-                <a href="#"><p class="footer_top_parag_text">Самовывоз</p></a>
-                <a href="#"><p class="footer_top_parag_text">Бесплатная доставка</p></a>
+                <a href="#">
+                    <h3 class="footer_top_header two">Доставка</h3>
+                </a>
+                <a href="#">
+                    <p class="footer_top_parag_text">Самовывоз</p>
+                </a>
+                <a href="#">
+                    <p class="footer_top_parag_text">Бесплатная доставка</p>
+                </a>
             </div>
             <div class="footer_box">
-                <img class="footer_top_img" src="img/svg/carona.svg" alt="">
-                <a href="#"><h3 class="footer_top_header three">Оплата</h3>                </a>
-                <p class="footer_top_parag_text">Worldwide delivery on all. Authorit tively morph next-generation innov
-                    tion with extensive models.</p>
+                <h3 class="footer_top_header three">Информация</h3>
+                <a href="">
+                    <p class="footer_top_parag_text">О компании</p>
+                </a>
+                <a href="">
+                    <p class="footer_top_parag_text">Где купить</p>
+                </a>
+                <a href="">
+                    <p class="footer_top_parag_text">Контакты</p>
+                </a>
+                <a href="">
+                    <p class="footer_top_parag_text">Отзывы</p>
+                </a>
             </div>
         </div>
         <div class="footer_down center">
@@ -149,7 +135,7 @@
                     <i class="fab fa-pinterest-p"></i>
                 </a>
                 <a href="#" class="footer_icon ">
-                   <i class="fab fa-twitter"></i>
+                    <i class="fab fa-twitter"></i>
                 </a>
             </div>
         </div>
@@ -157,4 +143,3 @@
 </body>
 
 </html>
-
