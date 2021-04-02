@@ -411,24 +411,13 @@ input {
 @media (max-width: 1023px) {
   iframe {
     height: 350px;
+    width: 736px;
   }
 
   .center {
     padding-left: 16px;
     padding-right: 16px;
   }
-  /*
-  .address__map {
-    width: 100%;
-  }
-  
-  .address__text {
-    width: 100%;
-  }
-  .map_w{
-    width: 768px;
-    height: 350px;
-  }*/
 
   .line {
     display: -webkit-box;
