@@ -143,6 +143,12 @@ border-bottom: 1px solid lightblue;
   display: flex;
 }
 
+}
+.cart:last-child{
+  border-bottom: none;
+}
+
+
 .cart_header_text {
   font-size: 20px;
   line-height: 20px;
